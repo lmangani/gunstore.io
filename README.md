@@ -5,21 +5,25 @@
 <img src="https://www.vectorlogo.zone/logos/js_webpack/js_webpack-card.png" height="75" />
 </p>
 <p align="center">
-<h1>
-  gunstore
-</h1>
+  <img src="https://user-images.githubusercontent.com/1423657/38475477-c21ead08-3ba8-11e8-8ccc-a42a7c11daba.png" />
 </p>
 <p align="center">
 Start storing your data in the cloud in 2 seconds
 </p>
 
 ## About
-gunstore is a clone of jsonstore.io and offers a free, secured and JSON based cloud datastore for small projects.
+**gunstore** is a clone of [jsonstore.io](https://jsonstore.io) and provides a datastore for small projects based on [Gun DB](https://github.com/amark/gun).
 Just launch and access your instance, copy the URL and start sending HTTP requests to communicate with your datastore.
 POST requests will save data, PUT requests modify data, DELETE requests delete data and GET requests retrieves data.
 
 ## Examples
-Make sure to replace the URL in the examples to your own endpoint at http://localhost:3000/.
+Make sure to replace the URL in the examples to your actual endpoint URL!
+
+```bash
+npm install
+npm start
+```
+
 ### CURL
 #### POST
 The following command will create a user in `/users/1`:
