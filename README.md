@@ -12,7 +12,7 @@ Start storing your data in the cloud in 2 seconds
 </p>
 
 ## About
-**gunstore** is a clone of [jsonstore.io](https://jsonstore.io) and provides a datastore for small projects based on [Gun DB](https://github.com/amark/gun).
+**gunstore** is a clone of [jsonstore](https://github.com/bluzi/jsonstore) and provides a datastore for small projects based on [Gun DB](https://github.com/amark/gun).
 Just launch and access your instance, copy the URL and start sending HTTP requests to communicate with your datastore.
 POST requests will save data, PUT requests modify data, DELETE requests delete data and GET requests retrieves data.
 
@@ -92,3 +92,6 @@ fetch('http://localhost:3000/cf024bb815a93131ce9fed91b1f9dafa43a3c557e9be66e66fd
 
 ### Contribution
 Any type of feedback, pull request or issue is welcome.
+
+## Acknowledgements
+**gunstore** is a clone of [jsonstore](https://github.com/bluzi/jsonstore) by [bluzi](https://github.com/bluzi)
