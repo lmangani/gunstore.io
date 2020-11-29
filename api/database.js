@@ -1,6 +1,7 @@
 const Gun = require('gun');
 var gun = Gun('gun');
-
+// var gun = Gun('https://kmm-gun.herokuapp.com/gun');
+//console.log('when is this actually called?');
     module.exports = {
         get: key =>
             gun

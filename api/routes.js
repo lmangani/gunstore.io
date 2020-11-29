@@ -32,12 +32,31 @@ router.get(/^\/[0-9a-z]{64}/, (req, res) =>
         .catch(() => res.status(500).send({ ok: false }))
 );
 
-router.post(/^\/[0-9a-z]{64}/, checkContentType, (req, res) =>
+router.post(/^\/[0-9a-z]{64}/, checkContentType, (req, res) =>{
+    //console.log('this is the req.path', req.path)
+    //console.log('this is the req.body', req.body)
+    // need to 'remove' arrays for gundb
+    if (req.body.evidence){ // first SL cb may not have evidence??
+        var objEvidence = Object.assign({}, req.body.evidence) // turn array entry into object
+        delete req.body.evidence // remove the array
+        req.body.evidence = objEvidence // readd the obj version of array's data
+    }
+    if (req.body.seal){ // incase this app is posting more than just SL cbs
+        var objProof = JSON.stringify(req.body.seal.proofs)
+        delete req.body.seal.proofs
+        req.body.seal.proofs = objProof
+    }    
+    // just easier to strignify the array proofs[].opperations[] for gundb
+    console.log('this is the req.body adjusted', req.body)
+    // any app using the seal/proofs/opperations will need to JSON.parse req.body.seal.proofs
+    
+
+
     gun.get(req.path)
-        .put(req.body)
+        .put(req.body) // don't send arrays TODO reformat Seal
         .then(() => res.status(201).send({ ok: true }))
         .catch(() => res.status(500).send({ ok: false }))
-)
+})
 
 router.put(/^\/[0-9a-z]{64}/, checkContentType, (req, res) =>
     gun.get(req.path)
