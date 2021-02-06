@@ -1,5 +1,8 @@
 const Gun = require('gun');
 var gun = Gun('gun');
+// require('gun/lib/stats');
+//const stats = require('gun/lib/stats');
+
 // var gun = Gun('https://kmm-gun.herokuapp.com/gun');
 //console.log('when is this actually called?');
     module.exports = {

@@ -6,6 +6,8 @@ const Gun = require('gun')
 var gun = Gun().get('jsonstore');
 require('gun/lib/then.js')
 require('gun/lib/memdisk');
+// require('gun/lib/stats');
+
 
 function checkContentType(req, res, next) {
     if (!req.is('application/json')) {
