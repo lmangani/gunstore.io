@@ -10,6 +10,7 @@
     "prod": "PORT=80 npm start",
     "server:start": "node ./server",
     "client:build": "webpack",
+      "heroku-prebuild": "npm install --dev",
     "heroku-postbuild": "npm run client:build"
   },
   "devDependencies": {
