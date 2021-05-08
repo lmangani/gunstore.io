@@ -1,8 +1,6 @@
 <p align="center">
-<img src="https://wpoffice365.com/wp-content/uploads/2017/07/react-logo.png" height="75" />
 <img src="https://i.cloudup.com/zfY6lL7eFa-3000x3000.png" height="75" />
 <img src="https://cdn-images-1.medium.com/max/960/1*pxfq-ikL8zPE3RyGB2xbng.png" height="75" />
-<img src="https://www.vectorlogo.zone/logos/js_webpack/js_webpack-card.png" height="75" />
 </p>
 <p align="center">
   <img src="https://user-images.githubusercontent.com/1423657/38475477-c21ead08-3ba8-11e8-8ccc-a42a7c11daba.png" />
@@ -13,6 +11,8 @@ Start storing your data in the cloud in 2 seconds
 
 [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy)
 
+# CAUTION MODIFIED VERSION - Handles blockchain proofs. Use branch package-refresh for OG version.
+ 
 ## About
 **gunstore** is a clone of [jsonstore](https://github.com/bluzi/jsonstore) and provides a datastore for small projects based on [Gun DB](https://github.com/amark/gun).
 Just launch and access your instance, copy the URL and start sending HTTP requests to communicate with your datastore.
