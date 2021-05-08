@@ -1,2 +1,5 @@
 node_modules
-rdata*
+client/dist
+client/src/.DS_Store
+data
+rdata
