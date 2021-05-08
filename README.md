@@ -10,6 +10,7 @@
 <p align="center">
 Start storing your data in the cloud in 2 seconds
 </p>
+
 [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy)
 
 ## About
