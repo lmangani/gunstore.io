@@ -3,3 +3,4 @@ client/dist
 client/src/.DS_Store
 data
 rdata
+.gitignore

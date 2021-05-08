@@ -1,0 +1,11 @@
+{
+    "name": "Gunstore.io",
+    "description": "A barebones Node.js app using Express and gun",
+    "repository": "https://github.com/i001962/gunstore.io",
+    "logo": "https://node-js-sample.herokuapp.com/node.png",
+    "keywords": [
+        "node",
+        "express",
+        "gundb"
+    ]
+}
