@@ -12,7 +12,6 @@ Start storing your data in the cloud in 2 seconds
 </p>
 
 [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy)
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/i001962/gunstore.io/tree/package-refresh)
 
 ## About
 **gunstore** is a clone of [jsonstore](https://github.com/bluzi/jsonstore) and provides a datastore for small projects based on [Gun DB](https://github.com/amark/gun).
