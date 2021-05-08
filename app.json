@@ -1,6 +1,6 @@
 {
     "name": "Gunstore.io",
-    "description": "A barebones Node.js app using Express and gun",
+    "description": "A Node.js app using Express and gun",
     "repository": "https://github.com/i001962/gunstore.io",
     "logo": "https://dbdb.io/media/logos/gun.png",
     "keywords": [
