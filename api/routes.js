@@ -35,8 +35,8 @@ router.get(/^\/[0-9a-z]{64}/, (req, res) =>
 );
 
 router.post(/^\/[0-9a-z]{64}/, checkContentType, (req, res) =>{
-    //console.log('this is the req.path', req.path)
-    //console.log('this is the req.body', req.body)
+    console.log('this is the req.path', req.path)
+    console.log('this is the req.body', req.body)
     // need to 'remove' arrays for gundb
     if (req.body.evidence){ // first SL cb may not have evidence??
         var objEvidence = Object.assign({}, req.body.evidence) // turn array entry into object
