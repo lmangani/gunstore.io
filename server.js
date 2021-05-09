@@ -33,21 +33,3 @@ app.use((err, req, res) => {
 
 app.listen(port);
 console.log(`Serving at http://localhost:${port}`);
-///
-/*
-var wsport    = process.env.OPENSHIFT_NODEJS_PORT || process.env.VCAP_APP_PORT || process.env.PORT || process.argv[2] || 8765;
-const Gun = require('gun');
-
-var wsapp    = express();
-wsapp.use(Gun.serve);
-wsapp.use(express.static(__dirname));
-
-var server = wsapp.listen(8765);
- 
-var gun = Gun({	file: 'data/data.json' });
-
-global.Gun = Gun; /// make global to `node --inspect` - debug only
-global.gun = gun; /// make global to `node --inspect` - debug only
-
-console.log('Server started on port ' + 8765 + ' with /gun'); 
-*/
