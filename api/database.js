@@ -1,6 +1,5 @@
 const Gun = require('gun');
 var gun = Gun('gun');
-
     module.exports = {
         get: key =>
             gun
