@@ -1,0 +1,25 @@
+{
+    "name": "Gunstore.io",
+    "description": "A Node.js app using Express and gun",
+    "repository": "https://github.com/lmangani/gunstore.io",
+    "logo": "https://dbdb.io/media/logos/gun.png",
+    "keywords": [
+        "node",
+        "express",
+        "gundb"
+    ],
+    "env": {
+        "NPM_CONFIG_PRODUCTION": {
+            "description": "Config production?",
+            "value": "false"
+        },
+        "process.env.NODE_ENV": {
+            "description": "environment",
+            "value": "production"
+        },
+        "process.env.PORT": {
+            "description": "port numer",
+            "value": 8000
+        }
+    }
+}
