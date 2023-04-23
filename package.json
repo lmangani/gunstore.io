@@ -25,7 +25,7 @@
     "copy-webpack-plugin": "^11.0.0",
     "nodemon": "^1.17.5",
     "npm-run-all": "^4.1.2",
-    "webpack": "^3.8.1",
+    "webpack": "^5.80.0",
     "webpack-node-externals": "^1.2.0"
   },
   "dependencies": {
